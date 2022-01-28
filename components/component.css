@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import "./components/navbar/navbar.css";
+@import "./components/sidebar/sidebar.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #E2F1EC;
+}
+
+.main-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+
+.navbar-wrapper{
+    grid-column: 1/-1;
+}
+
+.hero{
+    text-align: center;
+    padding: 5px 0px;
+    border-bottom: 1px solid black;
+}

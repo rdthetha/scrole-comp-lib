@@ -1,0 +1,22 @@
+.side-navbar{
+    background: red; 
+    width: 300px;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.side-ul{
+    text-align: center;
+    margin: 0px;
+}
+
+.side-li{
+    margin: 10px;
+    padding: 10px 0px;
+    background-color: #BD98C9;
+}
+
+.side-li a{
+
+    background-color: #FFE7D3;
+}
