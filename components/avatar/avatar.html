@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="../../component.css">
     <title>Scrole UI</title>
 </head>
 
@@ -13,7 +13,7 @@
     <div class="main-wrapper">
         <header class="navbar-wrapper">
             <div class="icon-div">
-                <img class="main-icon" src="images/Scroll-UI logo.svg" alt="logo">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
                 <span class="icon-text">Scrole</span>UI
             </div>
             <nav class="navbar">
@@ -22,18 +22,18 @@
                     <li><a href="">Documentation</a></li>
                 </ul>
             </nav>
-            <a href="#">About Me</a>
+            <a href="#">Examples</a>
         </header>
         <nav class="side-navbar">
             <ul class="side-ul">
                 <h1>Components</h1>
-                <li class="side-li"><a href="">Nav 1</a></li>
-                <li class="side-li"><a href="">Nav 2</a></li>
-                <li class="side-li"><a href="">Nav 3</a></li>
-                <li class="side-li"><a href="">Nav 3</a></li>
-                <li class="side-li"><a href="">Nav 1</a></li>
-                <li class="side-li"><a href="">Nav 2</a></li>
-                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Avatar</a></li>
+                <li class="side-li"><a href="">Alert</a></li>
+                <li class="side-li"><a href="">Badge</a></li>
+                <li class="side-li"><a href="">Button</a></li>
+                <li class="side-li"><a href="">Card</a></li>
+                <li class="side-li"><a href="">Image</a></li>
+                <li class="side-li"><a href="">Input</a></li>
                 <li class="side-li"><a href="">Nav 3</a></li>
                 <li class="side-li"><a href="">Nav 1</a></li>
                 <li class="side-li"><a href="">Nav 2</a></li>
@@ -41,12 +41,38 @@
                 <li class="side-li"><a href="">Nav 3</a></li>
             </ul>
         </nav>
-        <article class="content">
-            <h1>Main article area</h1>
-            <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a
-                two column layout, and then to a three column layout by redefining the grid, and the placement of items
-                on the grid.</p>
-        </article>
+        <section class="main-section">
+            <div class="section-heading">Avatar</div>
+            <div class="section-subhead">Avatar has many use cases of different sizes and types for eg.profile pictures
+            </div>
+            <p class="section-para">In the below example we have used image in an avatar form. Use classes avatar-xs
+                ,avatar-sm,avatar-md and avatar-lg .</p>
+            <div class="component-example flex-row flex-align-center flex-gap1 first">
+                <div><img class="avatar avatar-xs" src="face.JPG" alt=""></div>
+                <div><img class="avatar avatar-sm" src="face.JPG" alt=""></div>
+                <div><img class="avatar avatar-md" src="face.JPG" alt=""></div>
+                <div><img class="avatar avatar-lg" src="face.JPG" alt=""></div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C173%2C172%2C1%29&t=panda-syntax&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522src%253D%2522face.JPG%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522src%253D%2522face.JPG%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-md%2522src%253D%2522face.JPG%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522src%253D%2522face.JPG%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E"
+                style="width: 614px; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <p class="section-para">In the below example we have used text in an avatar form. Use classes avatar-xs
+                ,avatar-sm,avatar-md and avatar-lg .</p>
+            <div class="component-example flex-row flex-align-center flex-gap1 first">
+                <div class="avatar-div avatar avatar-xs avatar-text">RD</div>
+                <div class="avatar-div avatar avatar-sm avatar-text">RD</div>
+                <div class="avatar-div avatar avatar-md avatar-text">RD</div>
+                <div class="avatar-div avatar avatar-lg avatar-text">RD</div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28200%2C173%2C172%2C1%29&t=panda-syntax&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-div%2520avatar%2520avatar-xs%2520avatar-text%2522%253ERD%250A%253C%252Fdiv%253E%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-div%2520avatar%2520avatar-sm%2520avatar-text%2522%253ERD%250A%253C%252Fdiv%253E%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-div%2520avatar%2520avatar-md%2520avatar-text%2522%253ERD%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522avatar-div%2520avatar%2520avatar-lg%2520avatar-text%2522%253ERD%250A%253C%252Fdiv%253E"
+                style="width: 597px; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+        </section>
     </div>
 </body>
 

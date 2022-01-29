@@ -1,0 +1,39 @@
+.avatar-div {
+    display: inline-block;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.avatar-xs {
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-sm {
+    width: 8rem;
+    height: 8rem;
+}
+
+.avatar-md {
+    width: 12rem;
+    height: 12rem;
+}
+
+.avatar-lg {
+    width: 15rem;
+    height: 15rem;
+}
+
+.avatar-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #1c0221;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}

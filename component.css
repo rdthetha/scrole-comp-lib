@@ -16,6 +16,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-size: 100%;
     background-color: var(--primary-background);
 }
 
@@ -86,18 +87,7 @@
 
 @media only screen and (max-width: 600px) {
 
-    .main-wrapper{
-        grid-template-columns: repeat(3,1fr);
+    *{
+        font-size: 60%;
     }
-    .navbar-wrapper{
-        order: 0;
-    }
-    .side-navbar{
-        order: 2;
-    }
-    .main-section{
-        order: 1;
-    }
-    
-    
 }
