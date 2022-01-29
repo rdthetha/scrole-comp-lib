@@ -20,6 +20,6 @@
 }
 
 .side-li a{
-    color: #56423D;
+    color: var(--primary-color);
     font-weight: 1000;
 }
