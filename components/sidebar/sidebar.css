@@ -1,0 +1,25 @@
+.side-navbar{
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #6F9DAD;
+    transition: all 0.5s ease;
+}
+
+.side-ul{
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+.side-li{
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 10%;
+   
+ 
+}
+
+.side-li a{
+    color: #56423D;
+    font-weight: 1000;
+}

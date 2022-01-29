@@ -1,0 +1,50 @@
+.navbar li,
+a {
+    color: #95B0B0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #005C68;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.main-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.icon-text {
+    color: #005C68;
+    font-weight: bold;
+}
+
+.navbar-wrapper {
+    font-family: 'Spartan', sans-serif;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li,
+a:hover {
+    color: black;
+}
