@@ -3,6 +3,7 @@
 @import "./components/navbar/navbar.css";
 @import "./components/sidebar/sidebar.css";
 @import "./components/avatar/avatar.css";
+@import "./index.css";
 
 :root{
 

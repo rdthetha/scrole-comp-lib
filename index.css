@@ -1,0 +1,12 @@
+.body{
+
+    font-family: var(--primary-font);
+}
+.start-btn{
+    background-color: var(--primary-color);
+    border: 0px;
+}
+
+.index-btn{
+    margin-top: 15rem;
+}
