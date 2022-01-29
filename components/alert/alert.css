@@ -1,0 +1,42 @@
+.body {
+    font-family: var(--primary-font);
+}
+
+.para-span {
+
+    font-weight: lighter;
+
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    border-radius: 10px;
+}
+
+.alert a {
+    font-size: 1rem;
+    background-color: var(--primary-faint-red);
+    color: beige;
+    margin-left: 1rem;
+}
+
+.alert-red {
+    background-color: var(--primary-faint-red);
+}
+
+.alert-orange {
+    background-color: var(--primary-faint-orange);
+}
+
+.alert-green {
+    background-color: var(--primary-faint-green);
+}
+
+.alert-general {
+    background-color: var(--primary-faint-grey);
+}
