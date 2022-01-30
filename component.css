@@ -3,6 +3,7 @@
 @import "./components/navbar/navbar.css";
 @import "./components/sidebar/sidebar.css";
 @import "./components/avatar/avatar.css";
+@import "./components/alert/alert.css";
 @import "./index.css";
 
 :root{
@@ -10,6 +11,10 @@
     --primary-background:#E2F1EC;
     --primary-color:#005C68;
     --primary-font:'Spartan', sans-serif;
+    --primary-faint-red:rgb(226, 124, 124);;
+    --primary-faint-green:#99e696;
+    --primary-faint-orange:#f5dc93;
+    --primary-faint-grey:#a09c9c;
 }
 
 *{
