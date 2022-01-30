@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../component.css">
+    <title>Scrole UI</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="navbar-wrapper">
+            <div class="icon-div">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
+                <span class="icon-text">Scrole</span>UI
+            </div>
+            <nav class="navbar">
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </nav>
+            <a href="#">Examples</a>
+        </header>
+        <nav class="side-navbar">
+            <ul class="side-ul">
+                <h1>Components</h1>
+                <li class="side-li"><a href="./avatar.html">Avatar</a></li>
+                <li class="side-li"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-li"><a href="badge.html">Badge</a></li>
+                <li class="side-li"><a href="">Button</a></li>
+                <li class="side-li"><a href="">Card</a></li>
+                <li class="side-li"><a href="">Image</a></li>
+                <li class="side-li"><a href="">Input</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Nav 1</a></li>
+                <li class="side-li"><a href="">Nav 2</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <section class="main-section">
+            <div class="section-heading">Badge</div>
+            <div class="section-subhead">Badges can be used in various forms like showing number of notifications on an
+                icon or showing a user's current status.</div>
+            <p class="section-para">In the below example we have used current status of user. Use classes according to
+                the status of the user for eg.active,busy etc.</p>
+            <div class="component-example flex-row flex-align-center flex-gap1 first">
+                <div class="icon-container avatar-xs">
+                    <img class="img-responsive img-round" src="../../images/face.JPG" alt="face" />
+                    <div class="status-circle status-active badge-xs"></div>
+                </div>
+                <div class="icon-container avatar-sm">
+                    <img class="img-responsive img-round" src="../../images/face.JPG" alt="face" />
+                    <div class="status-circle status-busy badge-sm"></div>
+                </div>
+                <div class="icon-container avatar-md ">
+                    <img class="img-responsive img-round" src="../../images/face.JPG" alt="face" />
+                    <div class="status-circle status-away badge-md"></div>
+                </div>
+                <div class="icon-container avatar-lg">
+                    <img class="img-responsive img-round" src="../../images/face.JPG" alt="face" />
+                    <div class="status-circle status-offline badge-lg"></div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=681.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-container%2520avatar-xs%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.JPG%2522%2520alt%253D%2522face%2522%252F%253E%250A%253Cdiv%2520class%253D%2522status-circle%2520status-active%2520badge-xs%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2520avatar-sm%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.JPG%2522%2520alt%253D%2522face%2522%252F%253E%250A%253Cdiv%2520class%253D%2522status-circle%2520status-busy%2520badge-sm%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2520avatar-md%2520%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.JPG%2522%2520alt%253D%2522face%2522%252F%253E%253Cdiv%2520class%253D%2522status-circle%2520status-away%2520badge-md%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2520avatar-lg%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2520img-round%2522%2520src%253D%2522..%252F..%252Fimages%252Fface.JPG%2522%2520alt%253D%2522face%2522%252F%253E%253Cdiv%2520class%253D%2522status-circle%2520status-offline%2520badge-lg%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 682px; height: 355px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <p class="section-para">In the below example we have used number of notifications. Use classes according to
+                the type and number required for eg in cart,icon etc.</p>
+            <div class="component-example flex-row flex-align-center flex-gap1 first">
+                <div class="icon-container avatar-xs">
+                    <img class="img-responsive" src="https://img.icons8.com/stickers/200/000000/gmail-new.png"
+                        alt="mail" />
+                    <div class="number-circle number-circle-xs">99</div>
+                </div>
+                <div class="icon-container avatar-sm">
+                    <img class="img-responsive" src="https://img.icons8.com/ios-filled/50/000000/only-cash--v2.png"
+                        alt="card" />
+                    <div class="number-circle number-circle-sm">55+</div>
+                </div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=auto&width=724.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon-container%2520avatar-xs%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fstickers%252F200%252F000000%252Fgmail-new.png%2522alt%253D%2522mail%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522number-circle%2520number-circle-xs%2522%253E99%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon-container%2520avatar-sm%2522%253E%250A%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fios-filled%252F50%252F000000%252Fonly-cash--v2.png%2522%2520alt%253D%2522card%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522number-circle%2520number-circle-sm%2522%253E55%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 725px; height: 243px; border:0; margin:10px 0px;transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>

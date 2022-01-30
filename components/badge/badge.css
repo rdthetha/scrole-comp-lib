@@ -1,0 +1,87 @@
+.icon-container {
+  position: relative;
+}
+
+.status-circle {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.number-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  padding: 0.1rem;
+  color: var(--primary-white);
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+
+.number-circle-xs {
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0.2rem;
+  right: -0.2rem;
+  background-color: var(--primary-faint-red);
+  font-size: 0.7rem;
+}
+
+.number-circle-sm {
+
+  width: 1.9rem;
+  height: 1.9rem;
+  top: 0.4rem;
+  right: -0.1rem;
+  background-color: var(--primary-faint-grey);
+  font-size: 0.8rem;
+}
+
+.status-active {
+  background-color: var(--primary-dark-green);
+  border: 1px solid var(--primary-white);
+}
+
+.status-busy {
+  background-color: var(--primary-dark-red);
+  border: 1px solid var(--primary-white);
+}
+
+.status-away {
+  background-color: var(--primary-dark-orange);
+  border: 1px solid var(--primary-white);
+}
+
+.status-offline {
+  background-color: var(--primary-dark-grey);
+  border: 1px solid var(--primary-white);
+}
+
+.badge-xs {
+  width: 1rem;
+  height: 1rem;
+  bottom: 0rem;
+  right: 0.3rem;
+}
+
+.badge-sm {
+  width: 1.2rem;
+  height: 1.2rem;
+  bottom: 0.5rem;
+  right: 0.6rem;
+}
+
+.badge-md {
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 0.8rem;
+  right: 1rem;
+}
+
+.badge-lg {
+  width: 2rem;
+  height: 2rem;
+  bottom: 0.8rem;
+  right: 1.2rem;
+}
