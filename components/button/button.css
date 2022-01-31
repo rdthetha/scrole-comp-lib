@@ -88,3 +88,16 @@
     font-size: 1.2rem;
     background-color: var(--secondary-btn);
 }
+
+.btn-float{
+
+    position: fixed;
+    bottom:5rem;
+    right:1rem;
+}
+.btn-float2{
+
+    position: fixed;
+    bottom:5rem;
+    right:4rem;
+}
