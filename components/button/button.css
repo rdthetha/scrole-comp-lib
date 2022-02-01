@@ -1,0 +1,103 @@
+.btn-primary {
+
+    background-color: var(--primary-color);
+    padding: 0.8rem;
+    color: var(--primary-white);
+    font-family: var(--primary-font);
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-btn-hover);
+    color: var(--primary-black);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-btn);
+    padding: 0.8rem;
+    color: var(--primary-white);
+    font-family: var(--primary-font);
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-btn-hover);
+    color: var(--primary-black);
+}
+
+.btn-link {
+    background-color: var(--primary-white);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.btn-link:hover{
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border: 0.1rem solid var(--primary-color);
+    color: var(--primary-black);
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    border: 0.1rem solid var(--primary-faint-red);
+    color: var(--primary-black);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary-btn);
+    color: var(--primary-white);
+}
+
+.btn-icon {
+    background-color: var(--primary-color);
+}
+
+.btn-floating {
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 100%;
+    border: 2px solid var(--primary-faint-grey);
+    box-shadow: 20px 20px 50px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.btn-icon {
+    font-size: 1.2rem;
+    background-color: var(--secondary-btn);
+}
+
+.btn-float{
+
+    position: fixed;
+    bottom:5rem;
+    right:1rem;
+}
+.btn-float2{
+
+    position: fixed;
+    bottom:5rem;
+    right:4rem;
+}

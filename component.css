@@ -5,6 +5,7 @@
 @import "./components/avatar/avatar.css";
 @import "./components/alert/alert.css";
 @import "./components/badge/badge.css";
+@import "./components/button/button.css";
 @import "./index.css";
 
 :root{
@@ -21,6 +22,10 @@
     --primary-dark-orange:orange;
     --primary-dark-grey:rgb(80, 79, 79);
     --primary-white:white;
+    --primary-black:black;
+    --primary-btn-hover:#407FA2;
+    --secondary-btn:#BA4F4F;
+    --secondary-btn-hover:#DAB0A8;
 
 }
 
@@ -29,9 +34,11 @@
     margin: 0px;
     padding: 0px;
     font-size: 100%;
+    
+}
+body{
     background-color: var(--primary-background);
 }
-
 .flex-row{
     display: flex;
     flex-wrap: wrap;
