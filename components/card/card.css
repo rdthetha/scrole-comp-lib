@@ -87,25 +87,30 @@
 }
 
 .btn-card {
+    margin: 0.5rem 0rem;
     padding: 0.3rem;
     color: var(--primary-color);
     background-color: transparent;
-    transition: color 300ms ease-in-out , transform 0.4s ease-in-out;
+    transition: color 300ms ease-in-out, transform 0.4s ease-in-out;
 }
-.btn-card:hover{
+
+.btn-card:hover {
     transform: scale(1.1);
 }
-.btn-like{
+
+.btn-like {
     cursor: pointer;
     border: 0px;
-    transition: color 100ms ease-in-out,transform 0.4s ease-in-out;
+    transition: color 100ms ease-in-out, transform 0.4s ease-in-out;
 }
-.btn-like:hover{
+
+.btn-like:hover {
     transform: scale(1.25);
     border: 0px;
     color: var(--primary-dark-red);
     background-color: transparent;
 }
+
 .btn-card-details {
     margin-top: 0.5rem;
     display: flex;
