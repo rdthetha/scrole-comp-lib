@@ -1,19 +1,19 @@
 .card-container {
     max-width: 20rem;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    border-radius: 12px;
+    box-shadow: rgb(0 0 0 / 35%) 0rem 0.2rem 1.2rem;
+    border-radius: 1rem;
     background-color: var(--primary-compliment);
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ease-in-out;
     position: relative;
 }
 
 .card-container-horizontal {
     max-height: 15rem;
     max-width: 40rem;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    border-radius: 12px;
+    box-shadow: rgb(0 0 0 / 35%) 0rem 0.2rem 1.2rem;
+    border-radius: 1rem;
     background-color: var(--primary-compliment);
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ease-in-out;
     position: relative;
     display: flex;
     flex-wrap: column wrap;
@@ -39,7 +39,7 @@
 .card-container-horizontal .img-contain>img {
     width: 95%;
     height: 100%;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 1rem 0rem 0rem 1rem;
     overflow: hidden;
     object-fit: cover;
     position: relative;
@@ -47,7 +47,7 @@
 
 .card-container .img-contain>img {
     width: 100%;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 1rem 1rem 0rem 0rem;
     overflow: hidden;
     object-fit: cover;
     position: relative;
@@ -59,9 +59,9 @@
 }
 
 .tag {
-    padding: 4px 8px;
+    padding: 0.1rem 0.5rem;
     border: 1px solid var(--primary-faint-grey);
-    border-radius: 50px;
+    border-radius: 2rem;
     font-size: 1rem;
     font-weight: 600;
     color: var(--primary-color);
@@ -69,9 +69,9 @@
 }
 
 .name {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 .card-details>p {
@@ -90,8 +90,22 @@
     padding: 0.3rem;
     color: var(--primary-color);
     background-color: transparent;
+    transition: color 300ms ease-in-out , transform 0.4s ease-in-out;
 }
-
+.btn-card:hover{
+    transform: scale(1.1);
+}
+.btn-like{
+    cursor: pointer;
+    border: 0px;
+    transition: color 100ms ease-in-out,transform 0.4s ease-in-out;
+}
+.btn-like:hover{
+    transform: scale(1.25);
+    border: 0px;
+    color: var(--primary-dark-red);
+    background-color: transparent;
+}
 .btn-card-details {
     margin-top: 0.5rem;
     display: flex;
@@ -134,7 +148,7 @@
     opacity: 0.8;
     background-color: var(--primary-faint-grey);
     color: black;
-    border-radius: 12px;
+    border-radius: 1rem;
     font-family: var(--primary-font);
     font-weight: bolder;
     font-size: 1.2rem;
