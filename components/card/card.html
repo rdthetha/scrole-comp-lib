@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../component.css">
+    <script src="https://kit.fontawesome.com/67165fa09e.js" crossorigin="anonymous"></script>
+    <title>Scrole UI</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="navbar-wrapper">
+            <div class="icon-div">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
+                <span class="icon-text">Scrole</span>UI
+            </div>
+            <nav class="navbar">
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </nav>
+            <a href="#">Examples</a>
+        </header>
+        <nav class="side-navbar">
+            <ul class="side-ul">
+                <h1>Components</h1>
+                <li class="side-li"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-li"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-li"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-li"><a href="../button/button.html">Button</a></li>
+                <li class="side-li"><a href="../card/card.html">Cards</a></li>
+                <li class="side-li"><a href="">Image</a></li>
+                <li class="side-li"><a href="">Input</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Nav 1</a></li>
+                <li class="side-li"><a href="">Nav 2</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <section class="main-section">
+            <div class="section-heading">Cards</div>
+            <div class="section-subhead">Cards has many use cases like showing product information to the user, Displaying a particular content in a orderly format etc.</div>
+            <p class="section-para">In the below example we have made normal card and also card with dismiss button at
+                the top-right .</p>
+            <div class="component-example flex-row flex-align-center flex-gap2 flex-justify-center first">
+                <div class="card-container">
+                    <div class="img-contain">
+                        <img src="https://picsum.photos/400" alt="Photo">
+                    </div>
+
+                    <div class="card-details">
+                        <span class="tag">Nature</span>
+                        <span class="tag">Lake</span>
+                        <div class="name">Card Vertical</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                            dignissim sed diam
+                            pharetra
+                            vitae ipsum odio.</p>
+                        <div class="btn-card-details">
+                            <button class="btn-primary btn-outline-secondary btn-card">Add to cart</button>
+                            <button class="btn-primary btn-outline-secondary btn-card">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="img-contain">
+                        <img src="https://picsum.photos/400" alt="Photo">
+                        <div class="tag-badge"><i class="fas fa-times-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card-details">
+                        <span class="tag">Nature</span>
+                        <span class="tag">Lake</span>
+                        <div class="name">Card Vertical</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                            dignissim sed diam
+                            pharetra
+                            vitae ipsum odio.</p>
+                        <div class="btn-card-details">
+                            <button class="btn-primary btn-outline-secondary btn-card">Add to cart</button>
+                            <button class="btn-primary btn-outline-secondary btn-card">Buy now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=ruby&width=703.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%253Cdiv%2520class%253D%2522img-contain%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520alt%253D%2522Photo%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ENature%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ELake%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522name%2522%253ECard%2520Vertical%253C%252Fdiv%253E%250A%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%2520Consecteturb%2520sodales%2520morbi%2520dignissim%2520sed%2520diampharetra%2520vitae%2520ipsum%2520odio.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-card-details%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EBuy%2520now%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%253Cdiv%2520class%253D%2522img-contain%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520alt%253D%2522Photo%2522%253E%250A%253Cdiv%2520class%253D%2522tag-badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253Cdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ENature%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ELake%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522name%2522%253ECard%2520Vertical%253C%252Fdiv%253E%250A%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Consectetur%2520sodales%2520morbi%2520dignissim%2520sed%2520diam%2520pharetra%2520vitae%2520ipsum%2520odio.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-card-details%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EBuy%2520now%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%;
+  height: 335px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            <p class="section-para">In the below example we have used card overlay to disable the card for the user
+                .</p>
+            <div class="component-example flex-row flex-align-center flex-gap2 flex-justify-center first">
+                <div class="card-container">
+                    <div class="overlay">
+                        <div class="overlay-text">Please try again later!!</div>
+                    </div>
+                    <div class="img-contain">
+                        <img src="https://picsum.photos/400" alt="Photo">
+                    </div>
+
+                    <div class="card-details">
+                        <span class="tag">Nature</span>
+                        <span class="tag">Lake</span>
+                        <div class="name">Card Vertical with Overlay</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                            dignissim sed diam
+                            pharetra
+                            vitae ipsum odio.</p>
+                        <div class="btn-card-details">
+                            <button class="btn-primary btn-outline-secondary btn-card">Add to cart</button>
+                            <button class="btn-primary btn-outline-secondary btn-card">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card-details">
+                        <span class="tag">Nature</span>
+                        <span class="tag">Lake</span>
+                        <div class="name">Card Vertical</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                            dignissim sed diam
+                            pharetra
+                            vitae ipsum odio.</p>
+                        <div class="btn-card-details flex-row flex-gap1 flex-align-center flex-justify-center">
+                            <button class="btn-primary btn-outline-secondary btn-card">Add to cart</button>
+                            <button class="btn-primary btn-outline-secondary btn-card">Buy now</button>
+                            <i class="far fa-thumbs-up">Like</i>
+                        </div>
+                    </div>
+                </div>
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=ruby&width=703.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%253Cdiv%2520class%253D%2522overlay%2522%253E%250A%253Cdiv%2520class%253D%2522overlay-text%2522%253EPlease%2520try%2520again%2520later%21%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522img-contain%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520alt%253D%2522Photo%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ENature%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ELake%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522name%2522%253ECard%2520Vertical%2520with%2520Overlay%253C%252Fdiv%253E%250A%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Consectetur%2520sodales%2520morbi%2520dignissim%2520sed%2520diam%2520pharetra%2520vitae%2520ipsum%2520odio.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-card-details%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EBuy%2520now%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ENature%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ELake%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522name%2522%253ECard%2520Vertical%253C%252Fdiv%253E%250A%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Consectetur%2520sodales%2520morbi%2520dignissim%2520sed%2520diam%2520pharetra%2520vitae%2520ipsum%2520odio.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-card-details%2520flex-row%2520flex-gap1%2520flex-align-center%2520flex-justify-center%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EBuy%2520now%253C%252Fbutton%253E%250A%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2522%253ELike%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%;
+  height: 335px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+            
+            <p class="section-para">In the below example we have used Horizontal cards. Use class
+                "card-container-horizontal" for this purpose.</p>
+            <div class="component-example flex-row flex-align-center flex-gap2 flex-justify-center first">
+                <div class="card-container-horizontal">
+                    <div class="img-contain">
+                        <img src="https://picsum.photos/400" alt="Photo">
+                    </div>
+                    <div class="card-detail-horizontal">
+                        <div class="card-details">
+                            <span class="tag">Nature</span>
+                            <span class="tag">Lake</span>
+                            <div class="name">Card Horizontal</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                                dignissim sed diam
+                                pharetra
+                                vitae ipsum odio.</p>
+                            <div class="btn-card-details">
+                                <button class="btn-primary btn-outline-secondary btn-card">Add to cart</button>
+                                <button class="btn-primary btn-outline-secondary btn-card">Buy now</button>
+                                <i class="far fa-thumbs-up">Like</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=ruby&width=703.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-container-horizontal%2522%253E%250A%253Cdiv%2520class%253D%2522img-contain%2522%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520alt%253D%2522Photo%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-detail-horizontal%2522%253E%250A%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ENature%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522tag%2522%253ELake%253C%252Fspan%253E%250A%253Cdiv%2520class%253D%2522name%2522%253ECard%2520Horizontal%253C%252Fdiv%253E%250A%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Consectetur%2520sodales%2520morbi%2520dignissim%2520sed%2520diam%2520pharetra%2520vitae%2520ipsum%2520odio.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522btn-card-details%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2520btn-outline-secondary%2520btn-card%2522%253EBuy%2520now%253C%252Fbutton%253E%250A%253Ci%2520class%253D%2522far%2520fa-thumbs-up%2522%253ELike%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%;
+  height: 335px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+
+    </div>
+    </div>
+
+
+    </section>
+    </div>
+</body>
+
+</html>

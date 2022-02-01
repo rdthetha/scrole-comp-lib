@@ -1,0 +1,141 @@
+.card-container {
+    max-width: 20rem;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 12px;
+    background-color: var(--primary-compliment);
+    transition: transform 0.4s ease;
+    position: relative;
+}
+
+.card-container-horizontal {
+    max-height: 15rem;
+    max-width: 40rem;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 12px;
+    background-color: var(--primary-compliment);
+    transition: transform 0.4s ease;
+    position: relative;
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.card-detail-horizontal {
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.card-container-horizontal:hover {
+    transform: scale(1.05);
+
+}
+
+.card-container-horizontal .img-contain>img {
+    width: 95%;
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+
+.card-container .img-contain>img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+}
+
+.img-contain {
+    width: 100%;
+    position: relative;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 1px solid var(--primary-faint-grey);
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.card-details>p {
+    font-size: 0.8rem;
+    line-height: 150%;
+    margin: 0.2rem 0rem;
+}
+
+.card-details {
+    padding: 0.2rem;
+    font-family: var(--primary-font);
+    margin-top: 0.5rem;
+}
+
+.btn-card {
+    padding: 0.3rem;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn-card-details {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tag-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    z-index: 1;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.tag-badge:hover {
+    transform: scale(1.15);
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+    color: transparent;
+}
+
+.overlay:hover {
+    opacity: 0.8;
+    background-color: var(--primary-faint-grey);
+    color: black;
+    border-radius: 12px;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
