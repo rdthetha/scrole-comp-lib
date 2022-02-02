@@ -6,11 +6,13 @@
 @import "./components/alert/alert.css";
 @import "./components/badge/badge.css";
 @import "./components/button/button.css";
+@import "./components/card/card.css";
 @import "./index.css";
 
 :root{
 
     --primary-background:#E2F1EC;
+    --primary-compliment:#F1E2E7;
     --primary-color:#005C68;
     --primary-font:'Spartan', sans-serif;
     --primary-faint-red:rgb(226, 124, 124);;
@@ -23,7 +25,7 @@
     --primary-dark-grey:rgb(80, 79, 79);
     --primary-white:white;
     --primary-black:black;
-    --primary-btn-hover:#407FA2;
+    --primary-btn-hover:#00899B;
     --secondary-btn:#BA4F4F;
     --secondary-btn-hover:#DAB0A8;
 
