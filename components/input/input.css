@@ -12,6 +12,12 @@
     font-family: inherit;
     font-weight: bold;
 }
+.input-box-success{
+    border: 0.15rem solid var(--primary-dark-green);
+}
+.input-box-error{
+    border: 0.15rem solid var(--primary-dark-red);
+}
 
 .input-label {
     position: absolute;
@@ -26,7 +32,6 @@
 }
 
 .input-box-basic {
-
     border-radius: 0.5rem;
     border: 0.15rem solid var(--primary-color);
     background-color: transparent;
@@ -34,7 +39,6 @@
     outline: none;
     font-family: inherit;
     font-weight: bold;
-
 }
 
 .input-box:hover {
