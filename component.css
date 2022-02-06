@@ -9,6 +9,8 @@
 @import "./components/card/card.css";
 @import "./components/image/image.css";
 @import "./components/input/input.css";
+@import "./components/Typography/text.css";
+@import "./components/list/list.css";
 @import "./index.css";
 
 :root {
@@ -43,6 +45,7 @@
 
 body {
     background-color: var(--primary-background);
+    font-family: var(--primary-font);
 }
 
 .flex-row {
@@ -105,7 +108,6 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     padding: 1.5rem 0rem;
-    ;
     color: var(--primary-color);
 }
 
@@ -114,6 +116,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     margin: 3rem 0rem;
+    line-height: 1.5;
 }
 
 .component-example {
@@ -128,9 +131,7 @@ body {
     transform: scale(1);
     overflow: hidden;
 }
-.code-iframe2{
-    width: 680px; height: 260px; border:0; transform: scale(1); overflow:hidden;
-}
+
 @media only screen and (max-width: 600px) {
 
     * {
