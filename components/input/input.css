@@ -1,0 +1,59 @@
+.component-input {
+    position: relative;
+    font-family: var(--primary-font);
+}
+
+.input-box {
+    border-radius: 0.5rem;
+    border: 0.15rem solid var(--primary-color);
+    background-color: transparent;
+    padding: 0.7rem;
+    outline: none;
+    font-family: inherit;
+    font-weight: bold;
+}
+.input-box-success{
+    border: 0.15rem solid var(--primary-dark-green);
+}
+.input-box-error{
+    border: 0.15rem solid var(--primary-dark-red);
+}
+
+.input-label {
+    position: absolute;
+    left: 0.8rem;
+    top: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: text;
+    background-color: var(--primary-background);
+    transition: top 200ms ease-in-out, left 200ms ease-in-out, font 200ms ease-in-out;
+
+}
+
+.input-box-basic {
+    border-radius: 0.5rem;
+    border: 0.15rem solid var(--primary-color);
+    background-color: transparent;
+    padding: 0.7rem;
+    outline: none;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.input-box:hover {
+    border: 0.15rem solid var(--primary-dark-grey);
+}
+
+.input-box:focus {
+    border: 0.15rem solid var(--primary-btn-hover);
+}
+
+.input-box:focus~.input-label,
+.input-box:not(:placeholder-shown).input-box:not(:focus)~.input-label {
+
+    top: -0.5rem;
+    left: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
