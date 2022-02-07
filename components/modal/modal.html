@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../component.css">
+    <script src="https://kit.fontawesome.com/67165fa09e.js" crossorigin="anonymous"></script>
+    <title>Scrole UI</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="navbar-wrapper">
+            <div class="icon-div">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
+                <span class="icon-text">Scrole</span>UI
+            </div>
+            <nav class="navbar">
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </nav>
+            <a href="#">Examples</a>
+        </header>
+        <nav class="side-navbar">
+            <ul class="side-ul">
+                <h1>Components</h1>
+                <li class="side-li"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-li"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-li"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-li"><a href="../button/button.html">Button</a></li>
+                <li class="side-li"><a href="../card/card.html">Cards</a></li>
+                <li class="side-li"><a href="../image/image.html">Image</a></li>
+                <li class="side-li"><a href="../input/input.html">Input</a></li>
+                <li class="side-li"><a href="../Typography/text.html">Typography</a></li>
+                <li class="side-li"><a href="../list/list.html">Lists</a></li>
+                <li class="side-li"><a href="../modal/modal.html">Modal</a></li>
+                <li class="side-li"><a href="../rating/rating.html">Rating</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <section class="main-section">
+            <div class="section-heading">Modal</div>
+            <div class="section-subhead">Modal are positioned over everything else in the document.It is used to show a
+                notification upon click of a button .</div>
+            <p class="section-para">In the below example we have implemented modal use id
+                <span class="para-span">modal-container</span>,
+                for applying these.</p>
+            <div class="component-example flex-row flex-align-center flex-justify-center">
+                <div><a href="#modal-container"><button class="btn-primary">Click Me!</button></a></div>
+                <div id="modal-container">
+                    <div class="modal-content">
+                        <div class="h4">Modal Title</div>
+                        <p class="modal-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut rhoncus
+                            odio. Praesent viverra leo eget dapibus consectetur. Aliquam pharetra aliquam ligula, vitae
+                            tristique magna sodales nec. Donec varius, ipsum in commodo varius, augue mi malesuada mi,
+                            ut malesuada orci dui suscipit elit. Suspendisse potenti.</p>
+
+                        <div class="modal-button-group flex-column flex-align-center">
+                            <button class="btn-primary">Learn More!</button>
+                            <a class="modal-btn-close" href="#"><button class="btn-secondary">Return</button></a>
+                        </div>
+
+
+
+                        <a href="#" class="modal-close">&times;</a>
+                    </div>
+                </div>
+               
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=766.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523modal-container%2522%253E%253Cbutton%2520class%253D%2522btn-primary%2522%253EClick%2520Me%21%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Cdiv%2520id%253D%2522modal-container%2522%253E%250A%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%253Cdiv%2520class%253D%2522h4%2522%253EModal%2520Title%253C%252Fdiv%253E%250A%253Cp%2520class%253D%2522modal-para%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit.%2520Morbi%2520ut%2520rhoncusodio.%2520Praesent%2520viverra%2520leo%2520eget%2520dapibus%2520consectetur.%2520Aliquam%2520pharetra%2520aliquam%2520ligula%252C%2520vita%2520tristique%2520magna%2520sodales%2520nec.%2520Donec%2520varius%252C%2520ipsum%2520in%2520commodo%2520varius%252C%2520augue%2520mi%2520malesuada%2520mi%252C%2520ut%2520malesuada%2520orci%2520dui%2520suscipit%2520elit.%2520Suspendisse%2520potenti.%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522modal-button-group%2520flex-column%2520flex-align-center%2522%253E%250A%253Cbutton%2520class%253D%2522btn-primary%2522%253ELearn%2520More%21%253C%252Fbutton%253E%250A%253Ca%2520class%253D%2522modal-btn-close%2522%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn-secondary%2522%253EReturn%253C%252Fbutton%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522modal-close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            class="code-iframe"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        </section>
+    </div>
+</body>
+
+</html>
