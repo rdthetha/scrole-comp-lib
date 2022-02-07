@@ -1,0 +1,68 @@
+.star-wrapper input{
+    display: none;
+  }
+  .star-example{
+    border: 1px solid var(--primary-dark-orange);
+    height: 15rem;
+  }
+  .star-wrapper  label{
+    float: right;
+    font-size: 5rem;
+    color: var(--primary-faint-grey);
+    margin: 0 0.2rem;
+    text-shadow: 1px 1px var(--primary-faint-grey);
+  }
+  .star-wrapper  label:before{
+    content: '★';
+    cursor: pointer;
+  }
+  .star-wrapper{
+    height: 7rem;
+    width: 25rem;
+    position: relative;
+  }
+  .star-wrapper input:checked ~ label{
+    color: var(--primary-gold);
+    text-shadow: 1px 1px var(--primary-dark-orange);
+  }
+  .star-wrapper:not(:checked) > label:hover,
+  .star-wrapper:not(:checked) > label:hover ~ label{
+    color: var(--primary-gold);;
+  }
+  .star-wrapper input:checked > label:hover,
+  .star-wrapper input:checked > label:hover ~ label{
+    color: var(--primary-gold);;
+    text-shadow: 1px 1px goldenrod;
+  }
+  .star-wrapper .star-result:before{
+    text-align: center;
+    position: absolute;
+    content: "";
+    bottom: -2rem;
+    right: -1rem;
+    width: 100%;
+   
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-dark-orange);
+    display: none;
+  }
+
+  .star-wrapper input:checked ~ .star-result:before{
+    display: block;
+  }
+  .star-wrapper #five-star:checked ~ .star-result:before{
+    content: "Excellent";
+  }
+  .star-wrapper #four-star:checked ~ .star-result:before{
+    content: "Good";
+  }
+  .star-wrapper #three-star:checked ~ .star-result:before{
+    content: "Average";
+  }
+  .star-wrapper #two-star:checked ~ .star-result:before{
+    content: "Poor";
+  }
+  .star-wrapper #one-star:checked ~ .star-result:before{
+    content: "Very Poor";
+  }
