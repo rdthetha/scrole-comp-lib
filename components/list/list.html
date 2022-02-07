@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../component.css">
+    <title>Scrole UI</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="navbar-wrapper">
+            <div class="icon-div">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
+                <span class="icon-text">Scrole</span>UI
+            </div>
+            <nav class="navbar">
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </nav>
+            <a href="#">Examples</a>
+        </header>
+        <nav class="side-navbar">
+            <ul class="side-ul">
+                <h1>Components</h1>
+                <li class="side-li"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-li"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-li"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-li"><a href="../button/button.html">Button</a></li>
+                <li class="side-li"><a href="../card/card.html">Cards</a></li>
+                <li class="side-li"><a href="../image/image.html">Image</a></li>
+                <li class="side-li"><a href="../input/input.html">Input</a></li>
+                <li class="side-li"><a href="../Typography/text.html">Typography</a></li>
+                <li class="side-li"><a href="../list/list.html">Lists</a></li>
+                <li class="side-li"><a href="">Nav 2</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <section class="main-section">
+            <div class="section-heading">Lists</div>
+            <div class="section-subhead">List has many uses like showing a group of items in a order or showing stacking
+                notifications to the user!
+            </div>
+            <p class="section-para">In the below example we have implemented different types of Lists . Use classes
+                <span class="para-span">list-item</span>,
+                <span class="para-span">list-group-items</span>,
+                <span class="para-span">list-square</span>,
+                <span class="para-span">list-order-letter</span>,
+                <span class="para-span">list-group-basic</span> for applying these.</p>
+            <div class="component-example">
+                <div class="list-container flex-column flex-gap2">
+                    <ul class="list-basic">
+                        <li class="list-item">This is a default list!</li>
+                        <li class="list-item">This is a default list!</li>
+                        <li class="list-item">This is a default list!</li>
+                        <li class="list-item">This is a default list!</li>
+                    </ul>
+                    <ul class="list-unstyled">
+                        <li class="list-item">This is a unstyled list!</li>
+                        <li class="list-item">This is a unstyled list!</li>
+                        <li class="list-item">This is a unstyled list!</li>
+                        <li class="list-item">This is a unstyled list!</li>
+                    </ul>
+                    <ul class="list-square">
+                        <li class="list-item">This is a square-styled list!</li>
+                        <li class="list-item">This is a square-styled list!</li>
+                        <li class="list-item">This is a square-styled list!</li>
+                        <li class="list-item">This is a square-styled list!</li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=664&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-basic%2522%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520default%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520default%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520default%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520default%2520list%21%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-unstyled%2522%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520unstyled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520unstyled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520unstyled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520unstyled%2520list%21%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-square%2522%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520square-styled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520square-styled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520square-styled%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520square-styled%2520list%21%253C%252Fli%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="list-container flex-column flex-gap2">
+                    <ol class="list-order-basic">
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                    </ol>
+                    <ol class="list-order-letter">
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                        <li class="list-item">This is a ordered list example!</li>
+                    </ol>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=664&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Col%2520class%253D%2522list-order-basic%2522%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253C%252Fol%253E%250A%253Col%2520class%253D%2522list-order-letter%2522%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2522%253EThis%2520is%2520a%2520ordered%2520list%2520example%21%253C%252Fli%253E%250A%253C%252Fol%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="list-container flex-column flex-gap2">
+                    <ul class="list-inline">
+                        <li class="list-item list-item-inline">This is a inline list!</li>
+                        <li class="list-item list-item-inline">This is a inline list!</li>
+                        <li class="list-item list-item-inline">This is a inline list!</li>
+                        <li class="list-item list-item-inline">This is a inline list!</li>
+                    </ul>
+
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=664&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-inline%2522%253E%250A%253Cli%2520class%253D%2522list-item%2520list-item-inline%2522%253EThis%2520is%2520a%2520inline%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2520list-item-inline%2522%253EThis%2520is%2520a%2520inline%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2520list-item-inline%2522%253EThis%2520is%2520a%2520inline%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-item%2520list-item-inline%2522%253EThis%2520is%2520a%2520inline%2520list%21%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <div class="list-container flex-column flex-gap3 flex-justify-center">
+                    <ul class="list-group-basic">
+                        <li class="list-group-item">This is a stacked list!</li>
+                        <li class="list-group-item">This is a stacked list!</li>
+                        <li class="list-group-item">This is a stacked list!</li>
+                        <li class="list-group-item">This is a stacked list!</li>
+                        <li class="list-group-item">This is a stacked list!</li>
+                    </ul>
+                    <ul class="list-group-basic">
+                        <li class="list-group-item list-group-item">This is a colored stacked list!</li>
+                        <li class="list-group-item list-group-item-grey">This is a colored stacked list!</li>
+                        <li class="list-group-item list-group-item-red">This is a colored stacked list!</li>
+                        <li class="list-group-item list-group-item-orange">This is a colored stacked list!</li>
+                        <li class="list-group-item list-group-item-green">This is a colored stacked list!</li>
+                    </ul>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=766.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group-basic%2522%253E%250A%253Cli%2520class%253D%2522list-group-item%2522%253EThis%2520is%2520a%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2522%253EThis%2520is%2520a%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2522%253EThis%2520is%2520a%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2522%253EThis%2520is%2520a%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2522%253EThis%2520is%2520a%2520stacked%2520list%21%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list-group-basic%2522%253E%250A%253Cli%2520class%253D%2522list-group-item%2520list-group-item%2522%253EThis%2520is%2520a%2520colored%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2520list-group-item-grey%2522%253EThis%2520is%2520a%2520colored%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2520list-group-item-red%2522%253EThis%2520is%2520a%2520colored%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2520list-group-item-orange%2522%253EThis%2520is%2520a%2520colored%2520stacked%2520list%21%253C%252Fli%253E%250A%253Cli%2520class%253D%2522list-group-item%2520list-group-item-green%2522%253EThis%2520is%2520a%2520colored%2520stacked%2520list%21%253C%252Fli%250A%253C%252Ful"
+                    class="code-iframe" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
