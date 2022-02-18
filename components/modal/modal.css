@@ -1,6 +1,11 @@
 #modal-container{
-
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: rgba(245, 245, 220, 0.829);
     display: none;
 }
 
@@ -10,7 +15,6 @@
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-    transform: translate(-50%,-50%);
     width: 25rem;
     padding: 2rem 1rem;
     background-color: var(--primary-compliment);
@@ -27,9 +31,9 @@
 
 }
 #modal-container:target{
-    display: block;
-    z-index: 999;
-    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     pointer-events: auto;
 }
 .modal-para{
