@@ -11,6 +11,8 @@
 @import "./components/input/input.css";
 @import "./components/Typography/text.css";
 @import "./components/list/list.css";
+@import "./components/modal/modal.css";
+@import "./components/rating/rating.css";
 @import "./index.css";
 
 :root {
@@ -32,6 +34,7 @@
     --primary-btn-hover: #00899B;
     --secondary-btn: #BA4F4F;
     --secondary-btn-hover: #DAB0A8;
+    --primary-gold:#FFD700;
 
 }
 
@@ -50,12 +53,12 @@ body {
 
 .flex-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 
 .flex-column {
     display: flex;
-    flex-wrap: column wrap;
+    flex-flow: column wrap;
 }
 
 .flex-align-center {
@@ -91,7 +94,7 @@ body {
 /* main section */
 
 .main-section {
-    margin-right: 6rem;
+    margin-right: 2rem;
     grid-column: 2/-1;
     display: flex;
     flex-direction: column;
@@ -135,6 +138,16 @@ body {
 @media only screen and (max-width: 600px) {
 
     * {
-        font-size: 60%;
+        font-size: 75%;
+    }
+    .main-section{
+        grid-column: 1/-1;
+        grid-row: 2;
+        margin-left: 2rem;
+    }
+    .main-wrapper{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
     }
 }

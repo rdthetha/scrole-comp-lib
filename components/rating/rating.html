@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../component.css">
+    <script src="https://kit.fontawesome.com/67165fa09e.js" crossorigin="anonymous"></script>
+    <title>Scrole UI</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="navbar-wrapper">
+            <div class="icon-div">
+                <img class="main-icon" src="../../images/Scroll-UI logo.svg" alt="logo">
+                <span class="icon-text">Scrole</span>UI
+            </div>
+            <nav class="navbar">
+                <ul class="nav-link">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Documentation</a></li>
+                </ul>
+            </nav>
+            <a href="#">Examples</a>
+        </header>
+        <nav class="side-navbar">
+            <ul class="side-ul">
+                <h1>Components</h1>
+                <li class="side-li"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-li"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-li"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-li"><a href="../button/button.html">Button</a></li>
+                <li class="side-li"><a href="../card/card.html">Cards</a></li>
+                <li class="side-li"><a href="../image/image.html">Image</a></li>
+                <li class="side-li"><a href="../input/input.html">Input</a></li>
+                <li class="side-li"><a href="../Typography/text.html">Typography</a></li>
+                <li class="side-li"><a href="../list/list.html">Lists</a></li>
+                <li class="side-li"><a href="../modal/modal.html">Modal</a></li>
+                <li class="side-li"><a href="../rating/rating.html">Rating</a></li>
+                <li class="side-li"><a href="">Nav 3</a></li>
+            </ul>
+        </nav>
+        <section class="main-section">
+            <div class="section-heading">Rating</div>
+            <div class="section-subhead">Ratings are used to give product feedback/review by the customer .</div>
+            <p class="section-para">In the below example rating is implemented using only HTML and CSS . Use class
+                <span class="para-span">star-wrapper</span>,
+                for applying these.</p>
+            <div class="component-example star-example flex-column flex-align-center flex-justify-center">
+                <div class="star-wrapper">
+                    <input type="radio" id="five-star" name="rate" value="5">
+                    <label for="five-star"></label>
+                    <input type="radio" id="four-star" name="rate" value="4">
+                    <label for="four-star"></label>
+                    <input type="radio" id="three-star" name="rate" value="3">
+                    <label for="three-star"></label>
+                    <input type="radio" id="two-star" name="rate" value="2">
+                    <label for="two-star"></label>
+                    <input type="radio" id="one-star" name="rate" value="1">
+                    <label for="one-star"></label>
+                    <div class="star-result"></div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=htmlmixed&width=572.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522star-wrapper%2522%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522five-star%2522%2520name%253D%2522rate%2522%2520value%253D%25225%2522%253E%250A%253Clabel%2520for%253D%2522five-star%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522four-star%2522%2520name%253D%2522rate%2522%2520value%253D%25224%2522%253E%250A%253Clabel%2520for%253D%2522four-star%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522three-star%2522%2520name%253D%2522rate%2522%2520value%253D%25223%2522%253E%250A%253Clabel%2520for%253D%2522three-star%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522two-star%2522%2520name%253D%2522rate%2522%2520value%253D%25222%2522%253E%250A%253Clabel%2520for%253D%2522two-star%2522%253E%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522one-star%2522%2520name%253D%2522rate%2522%2520value%253D%25221%2522%253E%250A%253Clabel%2520for%253D%2522one-star%2522%253E%253C%252Flabel%253E%250A%253Cdiv%2520class%253D%2522star-result%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                class="code-iframe" sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </section>
+    </div>
+</body>
+
+</html>
