@@ -9,14 +9,13 @@
     font-family: 'Spartan', sans-serif;
     text-align: center;
     margin: 0px;
+    list-style: none;
 }
 
 .side-li{
     margin: 10px;
     padding: 10px 0px;
     border-radius: 10%;
-   
- 
 }
 
 .side-li a{
