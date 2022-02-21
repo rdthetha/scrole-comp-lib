@@ -1,11 +1,11 @@
 
-# ScoreLib UI
-
-
+# ScroleUI
 
 A component library having all the components required for building css with no hassle!
 
+## Preview:
 
+https://kind-agnesi-dfedbe.netlify.app/
 
 
 ## Installation
@@ -16,21 +16,20 @@ Copy-paste the stylesheet <link> into your <head> before all other stylesheets t
   <link rel="stylesheet" href="https://kind-agnesi-dfedbe.netlify.app/component.css">
 ```
     
-## Usage/Examples
 
-```javascript
-Avatar
-Alert
-Badge
-Button
-Cards
-Image
-Input
-Typography
-Lists
-Modal
-Rating
-```
+## Components
+- Avatar
+- Alert
+- Badge
+- Button
+- Cards
+- Image
+- Input
+- Typography
+- Lists
+- Modal
+- Rating
+
 ## Badges
 
 
