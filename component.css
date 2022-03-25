@@ -13,6 +13,7 @@
 @import "./components/list/list.css";
 @import "./components/modal/modal.css";
 @import "./components/rating/rating.css";
+@import "./components/toast/toast.css";
 @import "./index.css";
 
 :root {
