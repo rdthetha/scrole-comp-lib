@@ -32,7 +32,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     padding: 10px 10%;
-    
+
 }
 
 .nav-link {
@@ -47,4 +47,65 @@ a {
 .nav-link li,
 a:hover {
     color: black;
+}
+
+/* Example of Navbar */
+.navbar-example {
+
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.ec-navbar-wrapper {
+
+    display: flex;
+    align-items: center;
+    padding-inline-end: 1.5rem;
+    color: var(--ec-primary-color);
+    margin-bottom: 1rem;
+    padding: 1rem 3rem;
+    background-color: var(--primary-white);
+
+}
+
+.ec-navbar {
+
+    flex: 1;
+    text-align: right;
+    padding: 1rem;
+
+}
+
+.ec-nav-link {
+
+    display: inline-block;
+    list-style-type: none;
+    color: var(--ec-primary-color);
+
+}
+
+.ec-nav-link li {
+
+    display: inline-block;
+    color: var(--ec-primary-color);
+    margin-right: 0.5rem;
+}
+
+.ec-input {
+
+    margin-right: 1rem;
+    padding: 0.7rem;
+    border: 0.15rem solid var(--ec-primary-color);
+}
+
+.ec-main-icon {
+
+    width: 5rem;
+    cursor: pointer;
+}
+
+.cart-icons {
+
+    font-size: 1.5rem;
 }
