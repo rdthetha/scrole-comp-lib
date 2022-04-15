@@ -1,0 +1,42 @@
+.grid-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark-red)
+}
+
+.grid-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark-green)
+}
+
+.grid-box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark-orange)
+}
+
+.grid-design {
+    width: 100%;
+    min-height: 15rem;
+    padding: 1rem;
+    border: 1px solid black;
+    font-size: 3rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+
+}
+
